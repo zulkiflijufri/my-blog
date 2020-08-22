@@ -3,17 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/blog/migrate-from-jekyll/</loc>
+    <loc>/posts/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/creation-dun-nouveau-theme/</loc>
+    <loc>/posts/creation-dun-nouveau-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -23,12 +18,17 @@
   </url>
   
   <url>
+    <loc>/posts/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/about/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/goisforlovers/</loc>
+    <loc>/posts/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -38,12 +38,12 @@
   </url>
   
   <url>
-    <loc>/blog/debuter-avec-hugo/</loc>
+    <loc>/posts/debuter-avec-hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/hugoisforlovers/</loc>
+    <loc>/posts/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -68,7 +68,7 @@
   </url>
   
   <url>
-    <loc>/blog/introduction-aux-modeles-hugo/</loc>
+    <loc>/posts/introduction-aux-modeles-hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -93,7 +93,7 @@
   </url>
   
   <url>
-    <loc>/blog/migrer-vers-hugo-depuis-jekyll/</loc>
+    <loc>/posts/migrer-vers-hugo-depuis-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url>
   
