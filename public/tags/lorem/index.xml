@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lorem on Hello</title>
+    <link>/tags/lorem/</link>
+    <description>Recent content in lorem on Hello</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Aug 2020 06:39:34 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/lorem/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Broadcasting</title>
+      <link>/posts/broadcasting/</link>
+      <pubDate>Sun, 23 Aug 2020 06:39:34 +0800</pubDate>
+      
+      <guid>/posts/broadcasting/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a eleifend nibh. Maecenas hendrerit metus eu pulvinar commodo. Curabitur at viverra enim, sit amet placerat orci. Nam nec sagittis metus, ac dapibus enim. Proin in commodo turpis. Etiam viverra, leo quis egestas sollicitudin, risus enim luctus lacus, ac malesuada massa neque quis mi. Duis posuere, velit et interdum facilisis, urna lorem egestas mauris, sed maximus elit nibh ut felis. Nulla volutpat pulvinar metus, et aliquam nisi blandit et.</description>
+    </item>
+    
+  </channel>
+</rss>
