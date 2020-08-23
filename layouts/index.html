@@ -1,20 +1,35 @@
 {{ define "main" }}
-    <main aria-role="main">
-        <div>
-            {{ if .Site.Params.Portrait.Path }}
-               <img src="{{ .Site.Params.Portrait.Path }}" class="circle" alt="{{ .Site.Params.Portrait.Alt }}" style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
-            {{ end }}
+    {{ $paginator := .Paginate (where .Pages "Type" "posts") }}
 
-            <h1>{{ .Site.Title }}</h1>
-            {{- with .Site.Params.homeSubtitle }}
-                <p>{{.}} <a href="/posts">disini</a></p>
-            {{- end }}
+    <main class="posts">
+        <!-- <h1 style="font-size: 30px; text-align: center">{{ .Title }}</h1> -->
+        <h1 style="font-size: 30px; text-align: center">Blog</h1>
+        <p style="font-size: 20px; text-align: center; color: #797a7e">Artikel, <code>perkuliahan</code>, tutorial dan yang lainnya</p>
+        <br><br>
 
-            {{- with .Site.Params.social }}
-                <div>
-                    {{ partial "social-icons.html" . }}
-                </div>
-            {{- end }}
-        </div>
+        {{ if .Content }}
+            <div class="content">{{ .Content }} k</div>
+        {{ end }}
+
+        {{ range .Paginator.Pages  }}
+            <div class="post-year">{{ .Date.Format "2006" }}</div>
+            <div class="posts-group">
+                <ul class="posts-list">
+                    <li class="post-item">
+                        {{ range .Pages }}
+                            <a href="{{.Permalink}}">
+                                <span class="post-title" style="text-decoration: underline;">{{.Title}}</span>
+                                <span class="post-day">
+                                    {{ if .Params.tags }}
+                                        {{ .Params.tags }}
+                                    {{ end }}
+                                </span>
+                            </a>
+                        {{ end }}
+                    </li>
+                </ul>
+            </div>
+        {{ end }}
+    {{ partial "pagination.html" . }}
     </main>
 {{ end }}
