@@ -3,102 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/posts/migrate-from-jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+    <loc>/tentang/</loc>
+    <lastmod>2020-08-23T06:56:07+08:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/creation-dun-nouveau-theme/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>/posts/broadcasting/</loc>
+    <lastmod>2020-08-23T06:39:34+08:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-23T06:39:34+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/lorem/</loc>
+    <lastmod>2020-08-23T06:39:34+08:00</lastmod>
   </url>
   
   <url>
     <loc>/posts/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/about/</loc>
-    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/goisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/debuter-avec-hugo/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/hugoisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/go/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/hugo/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/series/hugo-101/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/introduction-aux-modeles-hugo/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/series/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-23T06:39:34+08:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-23T06:39:34+08:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/templates/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>/tags/post1/</loc>
+    <lastmod>2020-08-23T06:34:34+08:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/themes/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>/posts/posting/</loc>
+    <lastmod>2020-08-23T06:34:34+08:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/migrer-vers-hugo-depuis-jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>/blog/</loc>
+    <loc>/series/</loc>
   </url>
   
 </urlset>
