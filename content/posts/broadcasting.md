@@ -1,7 +1,6 @@
 ---
 title: "Broadcasting"
 date: 2020-08-23T06:39:34+08:00
-images:
 tags: ["lorem"]
 ---
 

@@ -1,35 +1,48 @@
 {{ define "main" }}
-    {{ $paginator := .Paginate (where .Pages "Type" "posts") }}
 
-    <main class="posts">
-        <!-- <h1 style="font-size: 30px; text-align: center">{{ .Title }}</h1> -->
-        <h1 style="font-size: 30px; text-align: center">Blog</h1>
-        <p style="font-size: 20px; text-align: center; color: #797a7e">Artikel, tutorial, <code>perkuliahan</code> dan yang lainnya</p>
-        <br><br>
+<main class="posts">
+    <h1 style="font-size: 30px; text-align: center">Hei, saya Zulkifli.</h1>
+    <p style="font-size: 20px; text-align: center; color: #797a7e">mahasiswa yang sangat <code>ramah</code> dan <code>baik hati</code> :D</p>
+    <hr><br><br>
 
-        {{ if .Content }}
-            <div class="content">{{ .Content }} k</div>
-        {{ end }}
+    {{ if .Content }}
+    <div class="content">{{ .Content }}</div>
+    {{ end }}
 
-        {{ range .Paginator.Pages  }}
-            <div class="post-year">{{ .Date.Format "2006" }}</div>
-            <div class="posts-group">
-                <ul class="posts-list">
-                    <li class="post-item">
-                        {{ range .Pages }}
-                            <a href="{{.Permalink}}">
-                                <span class="post-title" style="text-decoration: underline;">{{.Title}}</span>
-                                <span class="post-day">
-                                    {{ if .Params.tags }}
-                                        {{ .Params.tags }}
-                                    {{ end }}
-                                </span>
-                            </a>
-                        {{ end }}
-                    </li>
-                </ul>
-            </div>
-        {{ end }}
+    <div class="post-year">Posts</div>
+    <div class="posts-group">
+        <ul class="posts-list">
+            <li class="post-item">
+                {{ range where .Site.RegularPages "Section" "posts"}}
+                    <a href="{{.Permalink}}">
+                        <span class="post-title" style="text-decoration: underline;">{{.Title}}</span>
+                        <span class="post-day">
+                            {{ if .Params.tags }}
+                            {{ .Params.tags }}
+                            {{ end }}
+                        </span>
+                    </a>
+                {{ end }}
+            </li>
+        </ul>
+    </div>
+    <div class="post-year">Blogs</div>
+    <div class="posts-group">
+        <ul class="posts-list">
+            <li class="post-item">
+                {{ range where .Site.RegularPages "Section" "blogs"}}
+                    <a href="{{.Permalink}}">
+                        <span class="post-title" style="text-decoration: underline;">{{.Title}}</span>
+                        <span class="post-day">
+                            {{ if .Params.tags }}
+                            {{ .Params.tags }}
+                            {{ end }}
+                        </span>
+                    </a>
+                {{ end }}
+            </li>
+        </ul>
+    </div>
     {{ partial "pagination.html" . }}
-    </main>
+</main>
 {{ end }}
