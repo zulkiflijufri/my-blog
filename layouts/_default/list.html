@@ -1,22 +1,23 @@
 {{ define "main" }}
     {{ $paginator := .Paginate .Data.Pages }}
-    
+
     <main class="posts">
-        <h1>{{ .Title }}</h1>
+        <h1 style="font-size: 30px; text-align: center">{{ .Title }}</h1>
+        <p style="font-size: 20px; text-align: center; color: #797a7e">Artikel, perkuliahan, tutorial, dan yang lainnya</p>
+        <br><br>
 
         {{ if .Content }}
             <div class="content">{{ .Content }}</div>
         {{ end }}
 
         {{ range $paginator.Pages.GroupByDate "2006" }}
+            <div class="post-year">{{ .Key }}</div>
             <div class="posts-group">
-                <div class="post-year">{{ .Key }}</div>
-
                 <ul class="posts-list">
-                    {{ range .Pages }}
-                        <li class="post-item">
+                    <li class="post-item">
+                        {{ range .Pages }}
                             <a href="{{.Permalink}}">
-                                <span class="post-title">{{.Title}}</span>
+                                <span class="post-title" style="text-decoration: underline;">{{.Title}}</span>
                                 <span class="post-day">
                                     {{ if .Site.Params.dateformShort }}
                                         {{ .Date.Format .Site.Params.dateformShort }}
@@ -25,8 +26,8 @@
                                     {{ end }}
                                 </span>
                             </a>
-                        </li>
-                    {{ end }}
+                        {{ end }}
+                    </li>
                 </ul>
             </div>
         {{ end }}

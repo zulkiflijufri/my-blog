@@ -1,8 +1,9 @@
 baseurl      = "/"
-title        = "My Blog"
+title        = "Hello"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
+enableEmoji = true
 
 [params]
   dateform        = "2 Jan 2006"
@@ -11,7 +12,7 @@ paginate     = 10
   dateformNumTime = "2006-01-02 15:04"
 
   # Subtitle for home
-  homeSubtitle = "Welcome, have a nice day"
+  homeSubtitle = "Semoga harimu menyenangkan, temukan bacaan yang menarik"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -28,7 +29,7 @@ paginate     = 10
   defaultTheme = "light"
 
 [taxonomies]
-    category = "blog"
+    category = "categories"
     tag      = "tags"
     series   = "series"
 
@@ -38,10 +39,10 @@ paginate     = 10
     subtitle = "Zulkifli"
     keywords = ""
     #copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts = "Read other posts"
+    readOtherPosts = "Postingan lainnya"
 
     [languages.en.params.logo]
-      logoText = "Zulkifli"
+      logoText = "/home"
       logoHomeLink = "/"
     # or
     #
@@ -50,11 +51,11 @@ paginate     = 10
 
   # And you can even create generic menu
   [[menu.main]]
-    identifier = "posts"
-    name       = "Post"
-    url        = "/posts"
+    identifier = "tentang"
+    name       = "Tentang"
+    url        = "/tentang"
 
   [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "/about"
+    identifier = "posts"
+    name       = "Posts"
+    url        = "/posts"
