@@ -3,7 +3,10 @@ title        = "Hello"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
-enableEmoji = true
+enableEmoji  = true
+
+[author]
+  name = "Admin"
 
 [params]
   dateform        = "2 Jan 2006"
