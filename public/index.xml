@@ -6,10 +6,19 @@
     <description>Recent content on Hello</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Aug 2020 20:23:36 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2020 15:05:44 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Testing content manager</title>
+      <link>/posts/testing-content-manager/</link>
+      <pubDate>Sat, 29 Aug 2020 15:05:44 +0000</pubDate>
+      
+      <guid>/posts/testing-content-manager/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a eleifend nibh. Maecenas hendrerit metus eu pulvinar commodo. Curabitur at viverra enim, sit amet placerat orci. Nam nec sagittis metus, ac dapibus enim. Proin in commodo turpis. Etiam viverra, leo quis egestas sollicitudin, risus enim luctus lacus, ac malesuada massa neque quis mi. Duis posuere, velit et interdum facilisis, urna lorem egestas mauris, sed maximus elit nibh ut felis. Nulla volutpat pulvinar metus, et aliquam nisi blandit et.</description>
+    </item>
     
     <item>
       <title>Web Development</title>
