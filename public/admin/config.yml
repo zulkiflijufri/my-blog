@@ -11,8 +11,8 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Draft", name: "draft", widget: "boolean" default=true}
-      - {label: "Toc", name: "toc", widget: "boolean" default=false}
-      - {label: "Featured Image", name: "images", widget: "image" default=""}
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Toc", name: "toc", widget: "boolean", default: false}
+      - {label: "Featured Image", name: "images", widget: "image", default: null}
       - {label: "Tags", name: "tags", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
