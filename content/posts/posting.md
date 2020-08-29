@@ -1,10 +1,10 @@
 ---
-title: "Posting"
+title: Posting
 date: 2020-08-23T06:34:34+08:00
-tags: ["post1"]
+tags:
+  - post1
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a eleifend nibh. Maecenas hendrerit metus eu pulvinar commodo. Curabitur at viverra enim, sit amet placerat orci. Nam nec sagittis metus, ac dapibus enim. Proin in commodo turpis. Etiam viverra, leo quis egestas sollicitudin, risus enim luctus lacus, ac malesuada massa neque quis mi. Duis posuere, velit et interdum facilisis, urna lorem egestas mauris, sed maximus elit nibh ut felis. Nulla volutpat pulvinar metus, et aliquam nisi blandit et. In at tortor aliquam, viverra augue nec, laoreet magna. Vestibulum aliquet eleifend nibh, at dictum est mattis non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer molestie id velit quis gravida. Nullam eget ante ultrices, consequat libero vitae, ullamcorper erat.
+**Lorem ipsum dolor sit amet**, consectetur adipiscing elit. Nam a eleifend nibh. Maecenas hendrerit metus eu pulvinar commodo. Curabitur at viverra enim, sit amet placerat orci. Nam nec sagittis metus, ac dapibus enim. Proin in commodo turpis. Etiam viverra, leo quis egestas sollicitudin, risus enim luctus lacus, ac malesuada massa neque quis mi. Duis posuere, velit et interdum facilisis, urna lorem egestas mauris, sed maximus elit nibh ut felis. Nulla volutpat pulvinar metus, et aliquam nisi blandit et. In at tortor aliquam, viverra augue nec, laoreet magna. Vestibulum aliquet eleifend nibh, at dictum est mattis non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer molestie id velit quis gravida. Nullam eget ante ultrices, consequat libero vitae, ullamcorper erat.
 
 Nam vel magna neque. Nullam cursus sagittis lacinia. Etiam consectetur lorem lectus, eget condimentum orci suscipit elementum. Nulla ac scelerisque sem. Curabitur at lorem eget lacus efficitur viverra at a velit. Sed luctus ante sed risus iaculis rutrum. Proin non aliquet diam. Suspendisse accumsan, nibh sit amet maximus congue, ex leo feugiat quam, sit amet lobortis mi arcu ac felis. Phasellus felis est, convallis a lorem et, placerat sollicitudin augue. Morbi in eros bibendum, facilisis mi a, interdum turpis. Aenean blandit maximus ante, eu finibus tellus gravida ac. Phasellus laoreet suscipit mollis. Sed aliquam feugiat ligula, ut rutrum nibh elementum vitae. Cras dapibus purus placerat nisl porttitor, vel fermentum quam lacinia.
 
