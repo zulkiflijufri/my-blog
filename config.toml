@@ -54,9 +54,9 @@ enableEmoji  = true
 
   # And you can even create generic menu
   [[menu.main]]
-    identifier = "tentang"
-    name       = "Tentang"
-    url        = "/tentang"
+    #identifier = "tentang"
+    #name       = "Tentang"
+    #url        = "/tentang"
 
   #[[menu.main]]
    # identifier = "posts"
